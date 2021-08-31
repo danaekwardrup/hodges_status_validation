@@ -5,11 +5,10 @@ good_values = [0, 1]
 file_counter = 0
 bad_file_list = []
 
-# user provides path to Recommendation folder
+# user provides pagit th to Recommendation folder
 # path = input('Please enter directory path: ')
 
-#path = 'D:\FTP\SmartlinkPROD\Hodges\INBOUND'
-path="C:\\Users\\danae.wardrup\\Desktop\\INBOUND"
+path = 'D:\FTP\SmartlinkPROD\Hodges\INBOUND'
 all_good_files = True
 for (root, _, files) in os.walk(path):
     # use os.walk read/print directory path and all filenames in said folder
